@@ -1,0 +1,113 @@
+* {
+    border: solid 2px red;
+}
+
+/* Flexbox level 1 */
+body { 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flexbox level 2 */
+
+.header {
+    display: flex;
+}
+
+/* Flexbox level 3 */
+
+.title {
+    flex: 1;
+}
+
+.header ul {
+    display: flex;
+    flex: 1;
+}
+
+.header li {
+    list-style: none;
+}
+
+/* Flexbox level 2 */
+
+.signup-top {
+    display: flex;
+}
+
+/* Flexbox level 3 */
+
+.signup-box1 {
+    flex: 1;
+}
+
+.signup-img {
+    flex: 1;
+}
+
+/* Flexbox level 2 */
+
+.random-info {
+    text-align: center;
+}
+
+/* Flexbox level 2 */
+
+.content {
+    display: flex;
+}
+
+/* Flexbox level 3 */
+
+.boxes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Flexbox level 4 */
+
+.box {
+    height: 100px;
+    width: 100px;
+    flex: initial;
+    border: solid 1px blue;
+}
+
+.box-text {
+    text-align: center;
+    flex: 1;
+}
+
+/* Flexbox level 2 */
+
+.review {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
+
+/* Flexbox level 2 */
+
+.signup-bottom {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+/* Flexbox level 3 */
+
+.signup-box2 {
+    flex: 1;
+    background-color: blue;
+    margin: 10px;
+}
+
+/* Flexbox level 2 */
+
+.footer {
+    text-align: center;
+}
